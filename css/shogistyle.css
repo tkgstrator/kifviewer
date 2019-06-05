@@ -1,0 +1,67 @@
+body {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    touch-action: manipulation;
+}
+
+.center-block {
+    padding: 0;
+    text-align: center;
+}
+
+#board {
+    width: 100%;
+    height: auto;
+}
+
+.ref {
+    display: block;
+    border: 3px dotted #000000;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 970px) {
+    .ctlbtn {
+        font-size: 47.5px;
+    }
+}
+@media screen and (max-width: 970px) {
+    .ctlbtn {
+        font-size: 5vw;
+    }
+}
+@media screen and (max-width: 750px) {
+    .ctlbtn {
+        font-size: 6vw;
+    }
+}
+
+.btn {
+}
+
+.ctlbtn {
+    list-style: none;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+    cursor: pointer;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+.ctlbtn:hover {
+    background: #67c5ff;
+    color: white;
+}
+
+.shogiboard {
+    width: 100%;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
